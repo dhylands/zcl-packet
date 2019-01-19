@@ -270,6 +270,27 @@
                     {"groupid":"uint16"}
                 ],
                 "dir":0},
+            "step":{
+                "params":[
+                    {"direction":"uint8"},
+                    {"f1":"uint8"},
+                    {"f2":"uint8"},
+                    {"f3":"uint8"}
+                ],
+                "dir":0},
+            "move":{
+                "params":[
+                    {"direction":"uint8"},
+                    {"f1":"uint8"},
+                    {"f2":"uint8"}
+                ],
+                "dir":0},
+            "stop":{
+                "params":[
+                    {"f1":"uint8"},
+                    {"f2":"uint8"}
+                ],
+                "dir":0},
             "enhancedAdd":{
                 "params":[
                     {"groupid":"uint16"},
