@@ -270,19 +270,18 @@
                     {"groupid":"uint16"}
                 ],
                 "dir":0},
+            "move":{
+              "params":[
+                  {"movemode":"uint8"},
+                  {"rate":"uint8"},
+                  {"f3":"uint8"}
+              ],
+              "dir":0},
             "step":{
                 "params":[
-                    {"direction":"uint8"},
-                    {"f1":"uint8"},
-                    {"f2":"uint8"},
-                    {"f3":"uint8"}
-                ],
-                "dir":0},
-            "move":{
-                "params":[
-                    {"direction":"uint8"},
-                    {"f1":"uint8"},
-                    {"f2":"uint8"}
+                    {"stepmode":"uint8"},
+                    {"stepsize":"uint8"},
+                    {"transtime":"uint16"}
                 ],
                 "dir":0},
             "stop":{
