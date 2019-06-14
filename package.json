@@ -1,6 +1,6 @@
 {
   "name": "zcl-packet",
-  "version": "0.2.5-moziot-004",
+  "version": "0.2.5-moziot-005",
   "description": "zcl-packet is a framer and parser for ZigBee Cluster Library (ZCL) packet on node.js.",
   "main": "index.js",
   "scripts": {
@@ -34,12 +34,12 @@
     "concentrate": "^0.2.3",
     "dissolve-chunks": "github:mozilla-iot/dissolve-chunks#moziot-changes",
     "enum": "^2.3.0",
-    "mocha": "^6.1.4",
     "zcl-id": "github:dhylands/zcl-id#moziot-changes"
   },
   "devDependencies": {
     "busyman": "^0.3.0",
     "chai": "^3.5.0",
-    "chance": "^1.0.18"
+    "chance": "^1.0.18",
+    "mocha": "^6.1.4"
   }
 }
